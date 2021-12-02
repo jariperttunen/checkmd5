@@ -1,5 +1,5 @@
 ## Check MD5 checksum
-Clone `checkmd5.py` from GitHub:
+Clone *checkmd5* from GitHub:
 
     git clone https://github.com/jariperttunen/checkmd5.git
 
