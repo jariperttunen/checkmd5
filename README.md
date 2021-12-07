@@ -11,5 +11,6 @@ Check MD5 checksum. Give a list of directories (wildcards):
 
     python checkmd5/checkmd5.py -d /path/to/A*/  > MD5_OK.txt 2> MD5_errors.txt
  
- In the example directories beginning with letter *A* are explored.
+ In the example directories beginning with letter *A* are explored. The `>2` redirectes
+ erroneus MD5 sums (i.e. standard error channel output) to MD5_errors.txt.
 
